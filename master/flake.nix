@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-typelists-master.flake = false;
+  inputs.src-typelists-master.ref   = "refs/heads/master";
   inputs.src-typelists-master.owner = "yglukhov";
-  inputs.src-typelists-master.ref   = "master";
   inputs.src-typelists-master.repo  = "typelists";
   inputs.src-typelists-master.type  = "github";
   
