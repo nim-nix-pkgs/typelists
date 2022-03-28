@@ -11,7 +11,6 @@
   inputs.src-typelists-master.ref   = "refs/heads/master";
   inputs.src-typelists-master.owner = "yglukhov";
   inputs.src-typelists-master.repo  = "typelists";
-  inputs.src-typelists-master.dir   = "";
   inputs.src-typelists-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
